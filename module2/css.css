@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Desktop view */
+@media screen and (min-width: 992px) {
+  .section {
+    width: 8cm;
+    height: calc(45% - 2cm);
+    margin: 1cm;
+    border: 1px solid black;
+    float: left;
+  }
+}
+
+/* Tablet view */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .section {
+    width: 6cm;
+    height: calc(45% - 2cm);
+    margin: 1cm;
+    border: 1px solid black;
+    float: left;
+  }
+}
+
+/* Mobile view */
+@media screen and (max-width: 767px) {
+  .section {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: none;
+  }
+}
+
